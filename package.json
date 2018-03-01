@@ -1,0 +1,14 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "Trying stuff with tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Gaurav Sharma",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^0.4.1"
+  }
+}

@@ -6,11 +6,11 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 module.exports = {
     entry: {
         app: [
-            './js/main.js',
+            './public/main.js',
             'webpack-hot-middleware/client?path=__webpack_hmr'
         ],
         vendor: [
-            './js/library.js',
+            './public/library.js',
             'webpack-hot-middleware/client?path=__webpack_hmr'
         ]
     },

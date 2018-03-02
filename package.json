@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test",
-    "start": "./node_modules/.bin/tailwind build styles.css -o js/main.css && node dev-server.js"
+    "start": "./node_modules/.bin/tailwind build styles.css -o public/main.css && node dev-server.js"
   },
   "author": "Gaurav Sharma",
   "license": "MIT",
